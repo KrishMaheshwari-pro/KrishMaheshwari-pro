@@ -27,11 +27,11 @@
   <!-- ── primary links ─────────────────────────────────────── -->
   <a href="https://github.com/KrishMaheshwari-pro">
     <img src="https://img.shields.io/badge/GitHub-0B1024?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/krishmaheshwari">
+  <a href="https://www.linkedin.com/in/krish--maheshwari/">
     <img src="https://img.shields.io/badge/LinkedIn-0B1024?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://instagram.com/krishmaheshwari07">
     <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://krishmaheshwari.dev">
+  <a href="https://krishmaheshwari.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
     <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -295,9 +295,9 @@ A profile built like a product — hand-authored animated SVGs, automated stats.
 #### Contribution Snake
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg?v=2" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg?v=2" width="100%" />
   </picture>
 </div>
 
@@ -380,13 +380,13 @@ A profile built like a product — hand-authored animated SVGs, automated stats.
 
 Always up for a good conversation about products, AI, or building things people actually use.
 
-<a href="https://www.linkedin.com/in/krishmaheshwari">
+<a href="https://www.linkedin.com/in/krish--maheshwari/">
   <img src="https://img.shields.io/badge/LinkedIn-0B1024?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://instagram.com/krishmaheshwari07">
   <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 <a href="mailto:krishmaheshwari111@gmail.com">
   <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://krishmaheshwari.dev">
+<a href="https://krishmaheshwari.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 
 <br/>

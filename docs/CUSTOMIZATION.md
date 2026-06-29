@@ -17,8 +17,8 @@ Run these replacements across the whole repo (your editor's "Replace in Files"):
 | `Productivity Shastra`      | your product                          | README, assets        |
 | `krishmaheshwari111@gmail.com` | your email                         | README                |
 | `krishmaheshwari07`         | your Instagram handle                 | README                |
-| `krishmaheshwari.dev`       | your portfolio domain                 | README                |
-| `linkedin.com/in/krishmaheshwari` | your LinkedIn URL              | README                |
+| `krishmaheshwari.vercel.app` | your portfolio domain                | README                |
+| `linkedin.com/in/krish--maheshwari` | your LinkedIn URL            | README                |
 
 > ⚠️ The repo **must** be named exactly like your username
 > (`your-username/your-username`) for GitHub to show it on your profile.
