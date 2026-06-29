@@ -53,7 +53,6 @@ jobs:
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
           cd dist
-          git init -q -b output
           git config --global --add safe.directory "$PWD"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
