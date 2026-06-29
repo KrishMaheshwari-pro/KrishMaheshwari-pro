@@ -1,7 +1,7 @@
 <!--
   ╔══════════════════════════════════════════════════════════════════╗
   ║  Krish Maheshwari · GitHub profile README                         ║
-  ║  Founder of Altus Corp · Creator of Productivity Shastra          ║
+  ║  AIML Enthusiast · Full Stack Developer       ║
   ║                                                                    ║
   ║  Built like a product, not a template. Hand-authored animated     ║
   ║  SVGs live in /assets — edit those, not third-party widgets.      ║
