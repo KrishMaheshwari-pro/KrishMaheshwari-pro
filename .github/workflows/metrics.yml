@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  GitHub Metrics 📈
+#  Renders a rich, themeable SVG summary of your GitHub activity and commits it
+#  to assets/metrics/github-metrics.svg — the README embeds it in a <details>.
+#
+#  Setup (one time):
+#   1. Create a classic Personal Access Token with scopes: repo, read:user.
+#      (read:org too if you want private/org contributions counted.)
+#   2. Repo → Settings → Secrets and variables → Actions → New secret
+#      Name: METRICS_TOKEN   Value: <your token>
+#   3. Actions tab → "GitHub Metrics" → Run workflow.
+#
+#  Docs: https://github.com/lowlighter/metrics
+# ─────────────────────────────────────────────────────────────────────────────
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "30 1 * * *"     # daily at 01:30 UTC
+  workflow_dispatch:          # run manually after METRICS_TOKEN is set
+  # No `push` trigger on purpose: this workflow needs METRICS_TOKEN, so we don't
+  # want it failing on every commit before the secret exists. Run it from the
+  # Actions tab once the token is configured (see docs/WORKFLOWS.md).
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # If METRICS_TOKEN is not set yet, the workflow still runs but with
+          # reduced data — it won't fail the profile.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/metrics/github-metrics.svg
+          committer_branch: main
+          template: classic
+
+          # ── Theme to match the profile ──────────────────────────────
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_habits: yes
+          plugin_habits_charts: yes
+
+          # cosmetic
+          config_order: base.header, base.activity, isocalendar, languages, habits, base.community, base.repositories, base.metadata

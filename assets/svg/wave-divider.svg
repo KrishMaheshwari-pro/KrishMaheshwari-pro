@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Decorative wave band — layered, gently animated.
+     Used between major sections. Transparent background → theme neutral. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 70" width="1100" height="70" preserveAspectRatio="none" role="presentation">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E5BFF"/><stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#w1)" opacity="0.16" d="M0,38 C150,18 270,52 440,40 C620,27 760,56 940,42 C1030,35 1070,42 1100,38 L1100,70 L0,70 Z">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite"
+      values="M0,38 C150,18 270,52 440,40 C620,27 760,56 940,42 C1030,35 1070,42 1100,38 L1100,70 L0,70 Z;
+              M0,42 C150,56 290,22 460,38 C640,52 780,24 950,40 C1040,48 1075,36 1100,42 L1100,70 L0,70 Z;
+              M0,38 C150,18 270,52 440,40 C620,27 760,56 940,42 C1030,35 1070,42 1100,38 L1100,70 L0,70 Z"/>
+  </path>
+  <path fill="url(#w2)" opacity="0.13" d="M0,46 C170,30 300,58 470,46 C660,33 800,58 980,46 C1050,41 1080,47 1100,44 L1100,70 L0,70 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,46 C170,30 300,58 470,46 C660,33 800,58 980,46 C1050,41 1080,47 1100,44 L1100,70 L0,70 Z;
+              M0,44 C170,58 300,32 470,46 C660,60 800,34 980,48 C1050,54 1080,44 1100,48 L1100,70 L0,70 Z;
+              M0,46 C170,30 300,58 470,46 C660,33 800,58 980,46 C1050,41 1080,47 1100,44 L1100,70 L0,70 Z"/>
+  </path>
+</svg>

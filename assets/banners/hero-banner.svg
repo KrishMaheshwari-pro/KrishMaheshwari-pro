@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  HERO BANNER · Krish Maheshwari
+  ───────────────────────────────────────────────────────────────
+  Self-contained, animated, JavaScript-free SVG (GitHub strips JS but
+  honours CSS keyframes + SMIL inside an <img>-loaded SVG).
+  Dark card on a transparent canvas, so it reads on GitHub Dark AND Light.
+  Design tokens mirror docs/DESIGN.md — change them here and there together.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Krish Maheshwari — Founder, Builder, Full-Stack and AI Engineer">
+  <defs>
+    <!-- Brand gradient: deep blue → royal purple → electric cyan -->
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#2E5BFF"/>
+      <stop offset="52%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%"  stop-color="#0B1024"/>
+      <stop offset="100%" stop-color="#070A14"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2E5BFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2E5BFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2E5BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- faint dot grid -->
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#9AA7C2" fill-opacity="0.07"/>
+    </pattern>
+
+    <filter id="soft"><feGaussianBlur stdDeviation="34"/></filter>
+
+    <clipPath id="card"><rect x="6" y="6" width="1268" height="408" rx="26"/></clipPath>
+
+    <style>
+      .t  { font-family: 'Segoe UI','SF Pro Display',-apple-system,system-ui,sans-serif; }
+      /* visible by default; animation only adds the entrance (backwards fill) so
+         text is never lost if a renderer skips animations. */
+      .rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) backwards; }
+      .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}.d4{animation-delay:.75s}.d5{animation-delay:.95s}
+      @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform: translateY(0); } }
+      @keyframes drift { 0%,100%{ transform: translate(0,0);} 50%{ transform: translate(0,-16px);} }
+      @keyframes drift2 { 0%,100%{ transform: translate(0,0);} 50%{ transform: translate(14px,10px);} }
+      @keyframes sheen { 0%{ transform: translateX(-120px);} 100%{ transform: translateX(1400px);} }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      /* role word rotator — each word owns a slice of a 12s loop.
+         r1 is visible by default so a static render still shows one role. */
+      .role { opacity:0; animation: roleCycle 12s infinite; }
+      .role.r1 { opacity:1; }
+      .role.r2{animation-delay:3s}.role.r3{animation-delay:6s}.role.r4{animation-delay:9s}
+      @keyframes roleCycle {
+        0%   { opacity:0; transform: translateY(8px); }
+        4%   { opacity:1; transform: translateY(0); }
+        21%  { opacity:1; transform: translateY(0); }
+        25%  { opacity:0; transform: translateY(-8px); }
+        100% { opacity:0; }
+      }
+      .caret { animation: blink 1.05s step-end infinite; }
+      @media (prefers-reduced-motion: reduce){
+        .rise,.role,.caret{animation:none;opacity:1;transform:none}
+      }
+    </style>
+  </defs>
+
+  <!-- ── Card ─────────────────────────────────────────────── -->
+  <g clip-path="url(#card)">
+    <rect x="6" y="6" width="1268" height="408" rx="26" fill="url(#cardBg)"/>
+
+    <!-- ambient glows -->
+    <g filter="url(#soft)">
+      <circle cx="180" cy="120" r="150" fill="url(#glowBlue)"   style="animation:drift 9s ease-in-out infinite"/>
+      <circle cx="1080" cy="300" r="170" fill="url(#glowCyan)"  style="animation:drift2 11s ease-in-out infinite"/>
+      <circle cx="720" cy="70"  r="150" fill="url(#glowPurple)" style="animation:drift 13s ease-in-out infinite"/>
+    </g>
+
+    <!-- dot grid + top hairline -->
+    <rect x="6" y="6" width="1268" height="408" fill="url(#dots)"/>
+    <rect x="40" y="92" width="1200" height="1.5" fill="url(#hair)" opacity="0.7"/>
+
+    <!-- moving sheen highlight -->
+    <g opacity="0.10"><rect x="-120" y="6" width="120" height="408" fill="#ffffff" transform="skewX(-18)" style="animation:sheen 7s ease-in-out infinite"/></g>
+
+    <!-- eyebrow -->
+    <g class="t rise d1">
+      <circle cx="52" cy="56" r="4.5" fill="#22D3EE"/>
+      <text x="68" y="61" fill="#9AA7C2" font-size="16" letter-spacing="3.5" font-weight="600">FOUNDER · BUILDER · ENGINEER</text>
+    </g>
+
+    <!-- name -->
+    <text class="t rise d2" x="48" y="178" fill="#F4F7FF" font-size="84" font-weight="800" letter-spacing="-1.5">Krish Maheshwari</text>
+
+    <!-- typed role line -->
+    <g class="t rise d3" font-size="30" font-weight="600">
+      <text x="50" y="236" fill="#7E8BA8">I build&#160;</text>
+      <g transform="translate(168,236)">
+        <text class="role r1" fill="url(#brand)">products that ship.</text>
+        <text class="role r2" fill="url(#brand)">productivity systems.</text>
+        <text class="role r3" fill="url(#brand)">with AI &amp; full-stack.</text>
+        <text class="role r4" fill="url(#brand)">Productivity Shastra.</text>
+        <rect class="caret" x="-6" y="-26" width="3" height="34" rx="1.5" fill="#22D3EE"/>
+      </g>
+    </g>
+
+    <!-- supporting line -->
+    <text class="t rise d4" x="50" y="286" fill="#9AA7C2" font-size="18" font-weight="400">
+      Founder of Altus Corp · Engineering student shipping useful, well-crafted software.
+    </text>
+
+    <!-- brand chips -->
+    <g class="t rise d5" font-size="14" font-weight="600">
+      <g transform="translate(50,322)">
+        <rect width="150" height="34" rx="17" fill="#11182E" stroke="#2A3A5E"/>
+        <circle cx="22" cy="17" r="4" fill="#2E5BFF"/>
+        <text x="38" y="22" fill="#C7D2E8">Altus&#160;Corp</text>
+      </g>
+      <g transform="translate(212,322)">
+        <rect width="208" height="34" rx="17" fill="#11182E" stroke="#2A3A5E"/>
+        <circle cx="22" cy="17" r="4" fill="#22D3EE"/>
+        <text x="38" y="22" fill="#C7D2E8">Productivity&#160;Shastra</text>
+      </g>
+      <g transform="translate(432,322)">
+        <rect width="150" height="34" rx="17" fill="#11182E" stroke="#2A3A5E"/>
+        <circle cx="22" cy="17" r="4" fill="#8B5CF6"/>
+        <text x="38" y="22" fill="#C7D2E8">Build in public</text>
+      </g>
+    </g>
+
+    <!-- ── Right-side emblem: orbiting monogram ─────────────── -->
+    <g transform="translate(1040,210)">
+      <g style="transform-origin:0 0;animation:drift 8s ease-in-out infinite">
+        <circle r="118" fill="none" stroke="#1E2A45" stroke-width="1.5"/>
+        <circle r="86"  fill="none" stroke="#1E2A45" stroke-width="1.5"/>
+        <circle r="150" fill="none" stroke="#141d33" stroke-width="1.5"/>
+        <!-- orbiting nodes -->
+        <g>
+          <circle cx="118" cy="0" r="6" fill="#2E5BFF"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+        </g>
+        <g>
+          <circle cx="0" cy="-86" r="5" fill="#22D3EE"/>
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+        </g>
+        <g>
+          <circle cx="106" cy="106" r="4.5" fill="#8B5CF6"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+        </g>
+        <!-- KM monogram -->
+        <circle r="60" fill="#0B1024" stroke="url(#brand)" stroke-width="2"/>
+        <text class="t" x="0" y="14" text-anchor="middle" fill="#F4F7FF" font-size="42" font-weight="800" letter-spacing="-1">KM</text>
+      </g>
+    </g>
+
+    <!-- ── Bottom wave ──────────────────────────────────────── -->
+    <g transform="translate(0,372)">
+      <path d="M0,18 C160,2 320,40 480,24 C640,8 800,44 960,28 C1120,12 1200,30 1280,20 L1280,48 L0,48 Z" fill="#2E5BFF" opacity="0.16"/>
+      <path d="M0,28 C170,12 330,46 500,30 C680,14 840,46 1010,30 C1150,18 1210,32 1280,26 L1280,48 L0,48 Z" fill="#22D3EE" opacity="0.12"/>
+    </g>
+
+    <!-- card border on top -->
+    <rect x="6.75" y="6.75" width="1266.5" height="406.5" rx="25.25" fill="none" stroke="#1E2A45" stroke-width="1.5"/>
+  </g>
+</svg>

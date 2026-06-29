@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Recent Activity 🛰️
+#  Fills the README's <!--START_SECTION:activity--> block with your latest
+#  public GitHub events (pushes, PRs, issues, stars…). No token setup needed —
+#  it uses the built-in GITHUB_TOKEN.
+#
+#  Requires the README to contain the marker comments:
+#    <!--START_SECTION:activity-->
+#    <!--END_SECTION:activity-->
+#
+#  Docs: https://github.com/jamesgeorge007/github-activity-readme
+# ─────────────────────────────────────────────────────────────────────────────
+name: Recent Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"    # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Update activity feed
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "chore: refresh recent activity"
+          MAX_LINES: 5

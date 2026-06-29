@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TECH STACK · eight glass category cards on a dark panel.
+     Self-contained (no external logos / requests). Edit a line = edit a tool. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" width="1100" height="520" role="img"
+     aria-label="Tech stack: Languages, Frontend, Backend, Database, AI/ML, Cloud, DevOps, Design">
+  <defs>
+    <linearGradient id="ts_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1024"/><stop offset="100%" stop-color="#070A14"/>
+    </linearGradient>
+    <linearGradient id="ts_blue"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2E5BFF"/><stop offset="100%" stop-color="#5B8BFF"/></linearGradient>
+    <linearGradient id="ts_purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#B794FF"/></linearGradient>
+    <linearGradient id="ts_cyan"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#67E8F9"/></linearGradient>
+    <linearGradient id="ts_rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E5BFF" stop-opacity="0"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".8"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .h  { font-family:'Segoe UI',system-ui,sans-serif; }
+      .ic { animation: pulse 4s ease-in-out infinite; transform-origin:center; }
+      .p1{animation-delay:0s}.p2{animation-delay:.4s}.p3{animation-delay:.8s}.p4{animation-delay:1.2s}
+      .p5{animation-delay:1.6s}.p6{animation-delay:2s}.p7{animation-delay:2.4s}.p8{animation-delay:2.8s}
+      @keyframes pulse{0%,100%{opacity:.92}50%{opacity:1;filter:brightness(1.18)}}
+      @media (prefers-reduced-motion:reduce){.ic{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1096" height="516" rx="24" fill="url(#ts_bg)" stroke="#1E2A45" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text class="h" x="40" y="52" fill="#F4F7FF" font-size="26" font-weight="800" letter-spacing="-.5">Tools of the trade</text>
+  <text class="h" x="40" y="76" fill="#7E8BA8" font-size="14">A stack chosen for speed, type-safety and shipping real products.</text>
+  <line x1="40" y1="92" x2="1060" y2="92" stroke="url(#ts_rule)" stroke-width="1.5"/>
+
+  <!-- card template repeated 8× -->
+  <!-- row 1 -->
+  <g class="h" transform="translate(24,112)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p1" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="18" font-weight="800">&#60;/&#62;</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Languages</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">TypeScript</text>
+      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">JavaScript</text>
+      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Python</text>
+      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">SQL</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(290,112)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p2" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_cyan)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">▣</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Frontend</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#22D3EE"/><text x="40" y="79">React</text>
+      <circle cx="26" cy="100" r="3" fill="#22D3EE"/><text x="40" y="105">Next.js</text>
+      <circle cx="26" cy="126" r="3" fill="#22D3EE"/><text x="40" y="131">Tailwind CSS</text>
+      <circle cx="26" cy="152" r="3" fill="#22D3EE"/><text x="40" y="157">Framer Motion</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(556,112)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p3" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">⚙</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Backend</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Node.js</text>
+      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Express</text>
+      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">FastAPI</text>
+      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">REST APIs</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(822,112)">
+    <rect width="254" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p4" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
+    <text x="33" y="40" text-anchor="middle" fill="#06080F" font-size="18" font-weight="800">⛁</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Database</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">PostgreSQL</text>
+      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">Supabase</text>
+      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Prisma</text>
+      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">MongoDB</text>
+    </g>
+  </g>
+
+  <!-- row 2 -->
+  <g class="h" transform="translate(24,312)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p5" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">✦</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">AI / ML</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">OpenAI API</text>
+      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">LangChain</text>
+      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">Vector DBs</text>
+      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">Prompt Eng.</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(290,312)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p6" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_cyan)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">☁</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Cloud</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#22D3EE"/><text x="40" y="79">Vercel</text>
+      <circle cx="26" cy="100" r="3" fill="#22D3EE"/><text x="40" y="105">Render</text>
+      <circle cx="26" cy="126" r="3" fill="#22D3EE"/><text x="40" y="131">Cloudflare</text>
+      <circle cx="26" cy="152" r="3" fill="#22D3EE"/><text x="40" y="157">Netlify</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(556,312)">
+    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p7" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="16" font-weight="800">⎇</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">DevOps</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">Git</text>
+      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">GitHub Actions</text>
+      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Docker</text>
+      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">CI / CD</text>
+    </g>
+  </g>
+
+  <g class="h" transform="translate(822,312)">
+    <rect width="254" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect class="ic p8" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
+    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">◑</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Design &amp; Tools</text>
+    <g fill="#C7D2E8" font-size="14">
+      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Figma</text>
+      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Notion</text>
+      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">VS Code</text>
+      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">Postman</text>
+    </g>
+  </g>
+</svg>
