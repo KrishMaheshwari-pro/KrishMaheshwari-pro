@@ -33,7 +33,7 @@
     <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://krishmaheshwari.dev">
     <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:manan@unleashed.in">
+  <a href="mailto:krishmaheshwari111@gmail.com">
     <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
   <br/><br/>
@@ -384,7 +384,7 @@ Always up for a good conversation about products, AI, or building things people 
   <img src="https://img.shields.io/badge/LinkedIn-0B1024?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://instagram.com/krishmaheshwari07">
   <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="mailto:manan@unleashed.in">
+<a href="mailto:krishmaheshwari111@gmail.com">
   <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://krishmaheshwari.dev">
   <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>

@@ -15,7 +15,7 @@ Run these replacements across the whole repo (your editor's "Replace in Files"):
 | `Krish Maheshwari`          | your name                             | README, assets        |
 | `Altus Corp`                | your company / brand                  | README, assets        |
 | `Productivity Shastra`      | your product                          | README, assets        |
-| `manan@unleashed.in`        | your email                            | README                |
+| `krishmaheshwari111@gmail.com` | your email                         | README                |
 | `krishmaheshwari07`         | your Instagram handle                 | README                |
 | `krishmaheshwari.dev`       | your portfolio domain                 | README                |
 | `linkedin.com/in/krishmaheshwari` | your LinkedIn URL              | README                |
