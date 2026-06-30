@@ -31,6 +31,8 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://krishmaheshwari.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://krishmaheshwari.vercel.app">
+    <img src="https://img.shields.io/badge/Résumé-FF6F61?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
     <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://instagram.com/krishmaheshwari07">
@@ -70,6 +72,13 @@ Driven by curiosity and a commitment to growth, I continuously expand my knowled
 - 🤖 &nbsp;Deep interest in **Machine Learning & Data Science**
 - 🧩 &nbsp;Driven to solve **real-world problems** with clean, reliable software
 - 💼 &nbsp;Open to **internships & opportunities**
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  HIGHLIGHTS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+### Highlights
+
+<div align="center">
+  <img src="assets/cards/highlights.svg" width="100%" alt="Highlights: 3 internships, 15+ projects built, 12+ technologies, 4 domains" />
+</div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
@@ -307,6 +316,15 @@ Schooling up to Class 10 (CBSE) · **94.2%** · `up to 2021`
 <!--END_SECTION:activity-->
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  QUOTE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<div align="center">
+
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote of the day" />
+
+</div>
+
+<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Connect
