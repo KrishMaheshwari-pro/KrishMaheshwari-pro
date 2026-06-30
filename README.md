@@ -34,7 +34,7 @@
   <a href="https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro/blob/main/assets/resume/Krish-Maheshwari-Resume.pdf">
     <img src="https://img.shields.io/badge/Résumé-FF6F61?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
-    <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://instagram.com/krishmaheshwari07">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
@@ -345,7 +345,7 @@ Always happy to talk about building things, machine learning, or a good project 
 <a href="https://krishmaheshwari.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:krishmaheshwari111@gmail.com">
-  <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://instagram.com/krishmaheshwari07">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
