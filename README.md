@@ -32,7 +32,7 @@
   <a href="https://krishmaheshwari.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro/blob/main/assets/resume/Krish-Maheshwari-Resume.pdf">
-    <img src="https://img.shields.io/badge/Résumé-FF6F61?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+    <img src="https://img.shields.io/badge/My_Resume-FF6F61?style=for-the-badge&logo=readdotcv&logoColor=white" alt="My Resume" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://instagram.com/krishmaheshwari07">
@@ -73,12 +73,6 @@ Driven by curiosity and a commitment to growth, I continuously expand my knowled
 - 🤖 &nbsp;Deep interest in **Machine Learning & Data Science**
 - 🧩 &nbsp;Driven to solve **real-world problems** with clean, reliable software
 - 💼 &nbsp;Open to **internships & opportunities**
-
-<div align="center">
-  <a href="https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro/blob/main/assets/resume/Krish-Maheshwari-Resume.pdf">
-    <img src="https://img.shields.io/badge/📄_View_My_Résumé-FF6F61?style=for-the-badge&logoColor=white" alt="View my résumé" />
-  </a>
-</div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  HIGHLIGHTS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ### Highlights
@@ -246,7 +240,7 @@ content and offline access to engage students with limited internet connectivity
 - Built a smart **Python + Pandas** Excel parser to automate complex extraction and improve accuracy.
 - Applied **schema design, validation & error-handling**, and optimised workflows for faster pipeline processing.
 
-### 🎨 Frontend Developer Intern · Miso
+### 🎨 Frontend Developer Intern · [Miso](https://krishmaheshwari.vercel.app)
 `🌐 Remote · Jul – Sep 2024`
 
 - Built **responsive web interfaces** at a fast-paced startup using modern frontend tech and best practices.
