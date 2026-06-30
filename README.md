@@ -74,6 +74,12 @@ Driven by curiosity and a commitment to growth, I continuously expand my knowled
 - 🧩 &nbsp;Driven to solve **real-world problems** with clean, reliable software
 - 💼 &nbsp;Open to **internships & opportunities**
 
+<div align="center">
+  <a href="https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro/blob/main/assets/resume/Krish-Maheshwari-Resume.pdf">
+    <img src="https://img.shields.io/badge/📄_View_My_Résumé-FF6F61?style=for-the-badge&logoColor=white" alt="View my résumé" />
+  </a>
+</div>
+
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  HIGHLIGHTS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ### Highlights
 
@@ -127,7 +133,14 @@ Driven by curiosity and a commitment to growth, I continuously expand my knowled
 ## Core CS
 
 <div align="center">
-  <img src="assets/cards/core-cs.svg" width="100%" alt="Core CS fundamentals: Data Structures & Algorithms, OOP, DBMS & SQL, Operating Systems, Computer Networks, System Design" />
+
+![DSA](https://img.shields.io/badge/Data_Structures_%26_Algorithms-2E5BFF?style=for-the-badge&logo=leetcode&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-8B5CF6?style=for-the-badge&logo=cplusplus&logoColor=white)
+![DBMS](https://img.shields.io/badge/DBMS_%26_SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![OS](https://img.shields.io/badge/Operating_Systems-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CN](https://img.shields.io/badge/Computer_Networks-22D3EE?style=for-the-badge&logo=wireshark&logoColor=white)
+![System Design](https://img.shields.io/badge/System_Design-E15FD0?style=for-the-badge&logo=apachespark&logoColor=white)
+
 </div>
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
@@ -219,17 +232,26 @@ content and offline access to engage students with limited internet connectivity
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Experience
 
-**🚀 Full-Stack Developer Intern** &nbsp; <a href="https://altuscorp.in"><img src="https://img.shields.io/badge/Altus_Corp-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="Altus Corp" /></a> &nbsp; <img src="https://img.shields.io/badge/Jun_2025_→_Present-0E1530?style=flat-square&labelColor=22D3EE&color=0E1530" alt="Jun 2025 – Present" />
+### 🚀 Full-Stack Developer Intern · [Altus Corp](https://altuscorp.in)
+`📍 Mumbai · Jun 2025 – Present`
 
-Shipped client **websites & apps** (**React · Supabase**), **analytics dashboards** & full **deployment**.
+- Designed and built **end-to-end web & mobile apps** for diverse clients, turning business requirements into scalable, production-ready solutions.
+- Built responsive client-facing sites in **React + Tailwind**, integrating **Supabase & APIs** for real-time data layers.
+- Owned the **full project lifecycle** — requirements, architecture and deployment — ensuring timely delivery and client satisfaction.
 
-**📊 Data Engineer Intern** &nbsp; <a href="https://finalyca.com"><img src="https://img.shields.io/badge/Finalyca-22D3EE?style=flat-square&logo=databricks&logoColor=white" alt="Finalyca" /></a> &nbsp; <img src="https://img.shields.io/badge/Jun_→_Jul_2025-0E1530?style=flat-square&labelColor=8B5CF6&color=0E1530" alt="Jun – Jul 2025" />
+### 📊 Data Engineer Intern · [Finalyca](https://finalyca.com)
+`📍 Mumbai · Jun – Jul 2025`
 
-Built **ETL pipelines** & a **Python (Pandas)** Excel parser for clean, analysis-ready data.
+- Engineered automated **ETL pipelines** that convert unstructured Excel files into clean, analysis-ready data.
+- Built a smart **Python + Pandas** Excel parser to automate complex extraction and improve accuracy.
+- Applied **schema design, validation & error-handling**, and optimised workflows for faster pipeline processing.
 
-**🎨 Frontend Developer Intern** &nbsp; <img src="https://img.shields.io/badge/Miso-2E5BFF?style=flat-square&logo=react&logoColor=white" alt="Miso" /> &nbsp; <img src="https://img.shields.io/badge/Remote_·_Jul_→_Sep_2024-0E1530?style=flat-square&labelColor=E15FD0&color=0E1530" alt="Remote · Jul – Sep 2024" />
+### 🎨 Frontend Developer Intern · Miso
+`🌐 Remote · Jul – Sep 2024`
 
-Built **responsive web UIs** with **Firebase** & **Tailwind CSS** at a fast-paced startup.
+- Built **responsive web interfaces** at a fast-paced startup using modern frontend tech and best practices.
+- Integrated **Firebase** for real-time data sync and secure **authentication**.
+- Engineered scalable **design systems** with **Tailwind CSS** for consistent UI/UX across the app.
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 

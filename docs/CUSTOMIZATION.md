@@ -31,7 +31,8 @@ All image paths are **relative**, so nothing else needs editing once renamed.
 The hand-authored SVGs live in `assets/`. The two you'll most likely touch:
 
 - `banners/hero-banner.svg` — name, eyebrow, rotating role words, chips
-- `cards/core-cs.svg` — Core CS fundamentals tiles
+- `cards/highlights.svg` — Highlights stat counters
+- `cards/achievements.svg` — Honors & Awards card
 
 Want to recolor them? See `docs/ASSETS.md`.
 
