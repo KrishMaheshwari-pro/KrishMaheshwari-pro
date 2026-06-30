@@ -19,7 +19,7 @@
 
   <!-- dynamic typed subtitle (replaceable third-party widget — see docs/CUSTOMIZATION.md) -->
   <a href="https://krishmaheshwari.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&height=40&lines=Computer+Science+Student;Full-Stack+Developer;Machine+Learning+%26+Data+Science;Building+real-world+products" alt="What I do" />
+    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&height=40&lines=AIML+Enthusiast;Full+Stack+Developer;Software+Developer;Strong+in+DSA+%26+OOP" alt="What I do" />
   </a>
 
   <br/>
@@ -41,6 +41,7 @@
   <!-- ── section nav (links resolve to GitHub's auto heading anchors) ── -->
   <kbd><a href="#about">About</a></kbd> &nbsp;
   <kbd><a href="#tech-stack">Tech Stack</a></kbd> &nbsp;
+  <kbd><a href="#core-cs">Core CS</a></kbd> &nbsp;
   <kbd><a href="#projects">Projects</a></kbd> &nbsp;
   <kbd><a href="#experience">Experience</a></kbd> &nbsp;
   <kbd><a href="#education">Education</a></kbd> &nbsp;
@@ -97,7 +98,27 @@ problems with innovation and precision.
 ## Tech Stack
 
 <div align="center">
-  <img src="assets/cards/tech-stack.svg" width="100%" alt="Tech stack across languages, frontend, backend, database, AI/ML and analytics tools" />
+  <img src="assets/cards/tech-stack.svg" width="100%" alt="Tech stack: HTML, CSS, JavaScript, C, C++, Python, Go, MongoDB, React, Node.js, Supabase, Firebase, SQL, Excel, AWS, Power BI, Tableau, Docker, MySQL" />
+</div>
+
+<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  CORE CS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## Core CS
+
+<div align="center">
+  <img src="assets/cards/core-cs.svg" width="100%" alt="Core CS fundamentals: Data Structures & Algorithms, OOP, DBMS & SQL, Operating Systems, Computer Networks, System Design" />
+</div>
+
+<div align="center">
+
+![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-2E5BFF?style=for-the-badge&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-22D3EE?style=for-the-badge&logoColor=white)
+![DBMS](https://img.shields.io/badge/DBMS%20%26%20SQL-8B5CF6?style=for-the-badge&logoColor=white)
+![OS](https://img.shields.io/badge/Operating%20Systems-E15FD0?style=for-the-badge&logoColor=white)
+![CN](https://img.shields.io/badge/Computer%20Networks-2E5BFF?style=for-the-badge&logoColor=white)
+![System Design](https://img.shields.io/badge/System%20Design-22D3EE?style=for-the-badge&logoColor=white)
+
 </div>
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>

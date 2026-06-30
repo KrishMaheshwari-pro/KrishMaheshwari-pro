@@ -106,7 +106,7 @@
     <!-- eyebrow -->
     <g class="t rise d1">
       <circle cx="52" cy="56" r="4.5" fill="#22D3EE"/>
-      <text x="68" y="61" fill="#A9B6D6" font-size="16" letter-spacing="3.2" font-weight="600">COMPUTER SCIENCE STUDENT · FULL-STACK DEVELOPER</text>
+      <text x="68" y="61" fill="#A9B6D6" font-size="15" letter-spacing="2.6" font-weight="600">AIML ENTHUSIAST · FULL STACK DEVELOPER · SOFTWARE DEVELOPER</text>
     </g>
 
     <!-- name -->
@@ -116,9 +116,9 @@
     <g class="t rise d3" font-size="30" font-weight="600">
       <text x="50" y="236" fill="#8493B4">I build&#160;</text>
       <g transform="translate(168,236)">
-        <text class="role r1" fill="url(#brand)">web &amp; app experiences.</text>
-        <text class="role r2" fill="url(#brand)">ML &amp; data-science tools.</text>
-        <text class="role r3" fill="url(#brand)">real-world products.</text>
+        <text class="role r1" fill="url(#brand)">AI/ML-powered tools.</text>
+        <text class="role r2" fill="url(#brand)">full-stack web apps.</text>
+        <text class="role r3" fill="url(#brand)">clean, scalable software.</text>
         <text class="role r4" fill="url(#brand)">things people actually use.</text>
         <rect class="caret" x="-6" y="-26" width="3" height="34" rx="1.5" fill="#22D3EE"/>
       </g>
@@ -132,18 +132,23 @@
     <!-- brand chips -->
     <g class="t rise d5" font-size="14" font-weight="600">
       <g transform="translate(50,322)">
-        <rect width="124" height="34" rx="17" fill="#141B38" stroke="#2E5BFF" stroke-opacity="0.5"/>
+        <rect width="124" height="34" rx="17" fill="#141B38" stroke="#2E5BFF" stroke-opacity="0.55"/>
         <circle cx="22" cy="17" r="4" fill="#3B82FF"/>
         <text x="38" y="22" fill="#D7E0F5">Full-Stack</text>
       </g>
       <g transform="translate(186,322)">
-        <rect width="172" height="34" rx="17" fill="#141B38" stroke="#8B5CF6" stroke-opacity="0.5"/>
+        <rect width="104" height="34" rx="17" fill="#141B38" stroke="#E15FD0" stroke-opacity="0.55"/>
         <circle cx="22" cy="17" r="4" fill="#E15FD0"/>
-        <text x="38" y="22" fill="#D7E0F5">Machine&#160;Learning</text>
+        <text x="38" y="22" fill="#D7E0F5">AI / ML</text>
       </g>
-      <g transform="translate(370,322)">
-        <rect width="196" height="34" rx="17" fill="#141B38" stroke="#22D3EE" stroke-opacity="0.5"/>
+      <g transform="translate(302,322)">
+        <rect width="124" height="34" rx="17" fill="#141B38" stroke="#22D3EE" stroke-opacity="0.55"/>
         <circle cx="22" cy="17" r="4" fill="#22D3EE"/>
+        <text x="38" y="22" fill="#D7E0F5">DSA · OOP</text>
+      </g>
+      <g transform="translate(438,322)">
+        <rect width="196" height="34" rx="17" fill="#141B38" stroke="#8B5CF6" stroke-opacity="0.55"/>
+        <circle cx="22" cy="17" r="4" fill="#8B5CF6"/>
         <text x="38" y="22" fill="#D7E0F5">Open to opportunities</text>
       </g>
     </g>

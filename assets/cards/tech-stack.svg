@@ -1,139 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TECH STACK · eight glass category cards on a dark panel.
-     Self-contained (no external logos / requests). Edit a line = edit a tool. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" width="1100" height="520" role="img"
-     aria-label="Tech stack: Languages, Frontend, Backend, Database, AI/ML, Cloud, DevOps, Design">
+<!-- TECH STACK · animated floating pill grid, mirrors the stack on krishmaheshwari.vercel.app.
+     Self-contained (no external logos / network requests). Each pill gently floats + glows
+     on a staggered delay so the whole grid ripples. Dark card on transparent canvas. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" width="1100" height="360" role="img"
+     aria-label="Tech stack: HTML, CSS, JavaScript, C, C++, Python, Go, MongoDB, ReactJS, Node.js, Supabase, Firebase, SQL, Excel, AWS, Power BI, Tableau, Docker, MySQL">
   <defs>
-    <linearGradient id="ts_bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="tsg_bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1024"/><stop offset="100%" stop-color="#070A14"/>
     </linearGradient>
-    <linearGradient id="ts_blue"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2E5BFF"/><stop offset="100%" stop-color="#5B8BFF"/></linearGradient>
-    <linearGradient id="ts_purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#B794FF"/></linearGradient>
-    <linearGradient id="ts_cyan"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#67E8F9"/></linearGradient>
-    <linearGradient id="ts_rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E5BFF" stop-opacity="0"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".8"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    <linearGradient id="tsg_rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E5BFF" stop-opacity="0"/><stop offset="50%" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="tsg_spk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
     <style>
-      .h  { font-family:'Segoe UI',system-ui,sans-serif; }
-      .ic { animation: pulse 4s ease-in-out infinite; transform-origin:center; }
-      .p1{animation-delay:0s}.p2{animation-delay:.4s}.p3{animation-delay:.8s}.p4{animation-delay:1.2s}
-      .p5{animation-delay:1.6s}.p6{animation-delay:2s}.p7{animation-delay:2.4s}.p8{animation-delay:2.8s}
-      @keyframes pulse{0%,100%{opacity:.92}50%{opacity:1;filter:brightness(1.18)}}
-      @media (prefers-reduced-motion:reduce){.ic{animation:none}}
+      .h{font-family:'Segoe UI',system-ui,sans-serif}
+      /* pills are visible by default (opacity 1); animation only adds a gentle float + glow,
+         so nothing disappears if a renderer skips animation. Staggered via inline delay. */
+      .pill{animation:floatGlow 3.6s ease-in-out infinite}
+      @keyframes floatGlow{0%,100%{transform:translateY(0);filter:brightness(1)}50%{transform:translateY(-3px);filter:brightness(1.2)}}
+      .dot{animation:dotPulse 3.6s ease-in-out infinite;transform-origin:center}
+      @keyframes dotPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}
+      @media (prefers-reduced-motion:reduce){.pill,.dot{animation:none}}
     </style>
   </defs>
 
-  <rect x="2" y="2" width="1096" height="516" rx="24" fill="url(#ts_bg)" stroke="#1E2A45" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1096" height="356" rx="22" fill="url(#tsg_bg)" stroke="#1E2A45" stroke-width="1.5"/>
 
   <!-- header -->
-  <text class="h" x="40" y="52" fill="#F4F7FF" font-size="26" font-weight="800" letter-spacing="-.5">Tools of the trade</text>
-  <text class="h" x="40" y="76" fill="#7E8BA8" font-size="14">Full-stack web &amp; app development, with a growing focus on ML and data science.</text>
-  <line x1="40" y1="92" x2="1060" y2="92" stroke="url(#ts_rule)" stroke-width="1.5"/>
+  <text class="h" x="36" y="50" fill="#F4F7FF" font-size="24" font-weight="800" letter-spacing="-.5">Tech Stack</text>
+  <text class="h" x="36" y="74" fill="#7E8BA8" font-size="14">The languages, tools and platforms I build with day to day.</text>
+  <line x1="36" y1="90" x2="1064" y2="90" stroke="url(#tsg_rule)" stroke-width="1.5"/>
+  <circle cx="0" cy="90" r="7" fill="url(#tsg_spk)">
+    <animate attributeName="cx" values="90;1010;90" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </circle>
 
-  <!-- card template repeated 8× -->
-  <!-- row 1 -->
-  <g class="h" transform="translate(24,112)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p1" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="18" font-weight="800">&#60;/&#62;</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Languages</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">TypeScript</text>
-      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">JavaScript</text>
-      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Python</text>
-      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">SQL</text>
-    </g>
-  </g>
+  <!-- ── Pill grid (5 per row · 4 rows · 19 techs) ───────────── -->
+  <!-- Row 1 -->
+  <g transform="translate(30,104)"><g class="pill" style="animation-delay:0s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#3B82FF"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">HTML</text></g></g>
+  <g transform="translate(242,104)"><g class="pill" style="animation-delay:.15s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#22D3EE"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">CSS</text></g></g>
+  <g transform="translate(454,104)"><g class="pill" style="animation-delay:.3s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#8B5CF6"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">JavaScript</text></g></g>
+  <g transform="translate(666,104)"><g class="pill" style="animation-delay:.45s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#E15FD0"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">C</text></g></g>
+  <g transform="translate(878,104)"><g class="pill" style="animation-delay:.6s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#3B82FF"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">C++</text></g></g>
 
-  <g class="h" transform="translate(290,112)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p2" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_cyan)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">▣</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Frontend</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#22D3EE"/><text x="40" y="79">React</text>
-      <circle cx="26" cy="100" r="3" fill="#22D3EE"/><text x="40" y="105">Next.js</text>
-      <circle cx="26" cy="126" r="3" fill="#22D3EE"/><text x="40" y="131">Tailwind CSS</text>
-      <circle cx="26" cy="152" r="3" fill="#22D3EE"/><text x="40" y="157">Framer Motion</text>
-    </g>
-  </g>
+  <!-- Row 2 -->
+  <g transform="translate(30,166)"><g class="pill" style="animation-delay:.75s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#22D3EE"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Python</text></g></g>
+  <g transform="translate(242,166)"><g class="pill" style="animation-delay:.9s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#8B5CF6"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Go</text></g></g>
+  <g transform="translate(454,166)"><g class="pill" style="animation-delay:1.05s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#E15FD0"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">MongoDB</text></g></g>
+  <g transform="translate(666,166)"><g class="pill" style="animation-delay:1.2s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#3B82FF"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">ReactJS</text></g></g>
+  <g transform="translate(878,166)"><g class="pill" style="animation-delay:1.35s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#22D3EE"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Node.js</text></g></g>
 
-  <g class="h" transform="translate(556,112)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p3" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">⚙</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Backend</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Node.js</text>
-      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Express</text>
-      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">FastAPI</text>
-      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">REST APIs</text>
-    </g>
-  </g>
+  <!-- Row 3 -->
+  <g transform="translate(30,228)"><g class="pill" style="animation-delay:1.5s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#8B5CF6"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Supabase</text></g></g>
+  <g transform="translate(242,228)"><g class="pill" style="animation-delay:1.65s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#E15FD0"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Firebase</text></g></g>
+  <g transform="translate(454,228)"><g class="pill" style="animation-delay:1.8s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#3B82FF"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">SQL</text></g></g>
+  <g transform="translate(666,228)"><g class="pill" style="animation-delay:1.95s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#22D3EE"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Excel</text></g></g>
+  <g transform="translate(878,228)"><g class="pill" style="animation-delay:2.1s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#8B5CF6"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">AWS</text></g></g>
 
-  <g class="h" transform="translate(822,112)">
-    <rect width="254" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p4" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
-    <text x="33" y="40" text-anchor="middle" fill="#06080F" font-size="18" font-weight="800">⛁</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Database</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">PostgreSQL</text>
-      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">Supabase</text>
-      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">MongoDB</text>
-      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">SQL</text>
-    </g>
-  </g>
-
-  <!-- row 2 -->
-  <g class="h" transform="translate(24,312)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p5" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">✦</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">AI / ML &amp; Data</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">scikit-learn</text>
-      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Pandas / NumPy</text>
-      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">LangChain · RAG</text>
-      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">MediaPipe</text>
-    </g>
-  </g>
-
-  <g class="h" transform="translate(290,312)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p6" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_cyan)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">☁</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Cloud</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#22D3EE"/><text x="40" y="79">Vercel</text>
-      <circle cx="26" cy="100" r="3" fill="#22D3EE"/><text x="40" y="105">Render</text>
-      <circle cx="26" cy="126" r="3" fill="#22D3EE"/><text x="40" y="131">Cloudflare</text>
-      <circle cx="26" cy="152" r="3" fill="#22D3EE"/><text x="40" y="157">Netlify</text>
-    </g>
-  </g>
-
-  <g class="h" transform="translate(556,312)">
-    <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p7" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_blue)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="16" font-weight="800">⎇</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">DevOps</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">Git</text>
-      <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">GitHub Actions</text>
-      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Docker</text>
-      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">CI / CD</text>
-    </g>
-  </g>
-
-  <g class="h" transform="translate(822,312)">
-    <rect width="254" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
-    <rect class="ic p8" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
-    <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">◑</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Analytics &amp; Tools</text>
-    <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Power BI</text>
-      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Streamlit</text>
-      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">Figma</text>
-      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">VS Code · Postman</text>
-    </g>
-  </g>
+  <!-- Row 4 -->
+  <g transform="translate(30,290)"><g class="pill" style="animation-delay:2.25s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#E15FD0"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Power BI</text></g></g>
+  <g transform="translate(242,290)"><g class="pill" style="animation-delay:2.4s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#3B82FF"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Tableau</text></g></g>
+  <g transform="translate(454,290)"><g class="pill" style="animation-delay:2.55s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#22D3EE"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">Docker</text></g></g>
+  <g transform="translate(666,290)"><g class="pill" style="animation-delay:2.7s"><rect width="196" height="44" rx="12" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/><circle class="dot" cx="22" cy="22" r="4" fill="#8B5CF6"/><text class="h" x="40" y="27" fill="#E6EDF7" font-size="15" font-weight="600">MySQL</text></g></g>
 </svg>
