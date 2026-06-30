@@ -32,7 +32,7 @@
   <a href="https://krishmaheshwari.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://instagram.com/krishmaheshwari07">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
@@ -61,14 +61,15 @@
 
 > **I build at the intersection of full-stack development, machine learning, and real-world problems.**
 
-I'm **Krish Maheshwari** — a Computer Science student and full-stack developer who likes turning ideas into software people actually use.
+I'm a **B.Tech Computer Science & Engineering (Core)** student and a **full-stack developer** with a solid foundation in programming, data structures and software development. I build **end-to-end web and app experiences**, while my deeper interests lie in **Machine Learning and Data Science**.
 
-- 🎓 &nbsp;**B.Tech Computer Science & Engineering** — Manipal University Jaipur (2023–2027)
-- 🌱 &nbsp;Currently exploring **Machine Learning, Data Science & RAG systems**
-- 💻 &nbsp;Building **full-stack web & app experiences**, end to end
-- 💼 &nbsp;Open to **internships and freelance development / data projects**
-- 🧠 &nbsp;Believer in **learning by building**
-- 📫 &nbsp;Reach me at **krishmaheshwari111@gmail.com**
+Driven by curiosity and a commitment to growth, I continuously expand my knowledge, master emerging technologies, and apply my skills to solve **real-world problems** with innovation and precision.
+
+- 🎓 &nbsp;**B.Tech CSE (Core)** — Manipal University Jaipur · `2023 – 2027`
+- 💻 &nbsp;Full-stack **web & app development**, end to end
+- 🤖 &nbsp;Deep interest in **Machine Learning & Data Science**
+- 🧩 &nbsp;Driven to solve **real-world problems** with clean, reliable software
+- 💼 &nbsp;Open to **internships & opportunities**
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
@@ -208,36 +209,20 @@ content and offline access to engage students with limited internet connectivity
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Experience
 
-### 🚀 Full-Stack Developer Intern · <a href="https://altuscorp.in">Altus Corp</a>
-**Mumbai · June 2025 – Present**
+### 🚀 Full-Stack Developer Intern
+<a href="https://altuscorp.in"><img src="https://img.shields.io/badge/Altus_Corp-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="Altus Corp" /></a> &nbsp;`Mumbai · Jun 2025 – Present`
 
-Building real, client-facing software end-to-end — across web, mobile and data.
+Shipped client **websites & apps** with **React + Supabase**, built **analytics dashboards**, and owned **testing & deployment** end-to-end.
 
-- Built and shipped responsive, client-facing **websites and apps**, each tailored to a distinct brand and audience.
-- Engineered modern, **mobile-first interfaces with React**, integrating Supabase and REST APIs for real-time data, auth and dynamic content.
-- Developed **cross-platform mobile apps**, working directly with clients to gather requirements and ship polished, store-ready deliverables.
-- Built **data-analytics dashboards** that surface key metrics and actionable insights for clients and internal teams.
-- Owned **testing, debugging and the full deployment lifecycle** for reliable, production-ready releases.
+### 📊 Software Development Intern
+<a href="https://finalyca.com"><img src="https://img.shields.io/badge/Finalyca-22D3EE?style=flat-square&logo=databricks&logoColor=white" alt="Finalyca" /></a> &nbsp;`Jun 2025 – Jul 2025`
 
-### 📊 Software Development Intern · Finalyca
-**June 2025 – July 2025**
+Built a **Python (pandas)** Excel parser and **data pipelines** with **validation** and **EDA**, delivering clean, analysis-ready financial datasets.
 
-A financial data & analytics company — focused on data pipelines and clean, analysis-ready datasets.
+### 🎨 Web Development Intern
+<img src="https://img.shields.io/badge/Miso-2E5BFF?style=flat-square&logo=react&logoColor=white" alt="Miso" /> &nbsp;`Aug 2024 – Oct 2024`
 
-- Built a smart **Excel parser with Python (pandas)** that automates data extraction and processing.
-- Designed automated **data-transformation pipelines** that convert Excel files into structured formats for analysis.
-- Implemented **error-handling and validation** systems to ensure data integrity during processing.
-- Performed **exploratory data analysis** and prepared clean datasets feeding downstream financial analytics.
-
-### 🎨 Web Development Intern · Miso
-**August 2024 – October 2024**
-
-An early-stage startup building customizable gifts and personalized showpieces.
-
-- Developed **responsive web interfaces** using modern frontend technologies and best practices.
-- Integrated **Firebase** for real-time data management and user authentication.
-- Styled applications with **Tailwind CSS** for consistent, maintainable design systems.
-- Collaborated cross-functionally to deliver high-quality web solutions on schedule at a fast-paced startup.
+Built **responsive React interfaces** with **Firebase** auth/data and **Tailwind CSS** at an early-stage startup.
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
 
@@ -335,7 +320,7 @@ Always happy to talk about building things, machine learning, or a good project 
 <a href="https://krishmaheshwari.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:krishmaheshwari111@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://instagram.com/krishmaheshwari07">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
