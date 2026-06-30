@@ -13,7 +13,7 @@ GitHub Dark and Light.
 | ---- | ------- | ---------------------- |
 | `banners/hero-banner.svg` | The hero | Change name, eyebrow, rotating role words, brand chips, monogram |
 | `banners/footer-banner.svg` | Closing strip | Change the sign-off line |
-| `cards/tech-stack.svg` | Stack grid | Add/remove a tool (one `<text>` line each) |
+| `cards/core-cs.svg` | Core CS fundamentals | Edit subject tiles / sublabels |
 | `svg/divider.svg` | Slim section rule | — (reused everywhere) |
 | `svg/wave-divider.svg` | Wave between sections | — |
 | `metrics/github-metrics.svg` | Placeholder | Auto-replaced by the metrics workflow |

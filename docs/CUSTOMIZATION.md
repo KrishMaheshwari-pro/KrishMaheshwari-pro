@@ -31,7 +31,7 @@ All image paths are **relative**, so nothing else needs editing once renamed.
 The hand-authored SVGs live in `assets/`. The two you'll most likely touch:
 
 - `banners/hero-banner.svg` — name, eyebrow, rotating role words, chips
-- `cards/tech-stack.svg` — your stack grid
+- `cards/core-cs.svg` — Core CS fundamentals tiles
 
 Want to recolor them? See `docs/ASSETS.md`.
 
@@ -55,7 +55,7 @@ Backgrounds: `#070A14`, `#0B1024`, `#0E1530`. Borders: `#1E2A45`, `#22305A`.
 
 - **Hero text** → `assets/banners/hero-banner.svg` (name, eyebrow, role words, chips).
 - **About / projects / experience / education** → `README.md` (plain Markdown — easiest to edit).
-- **Tech stack** → `assets/cards/tech-stack.svg` (one line of text per tool).
+- **Tech stack** → `README.md` (shields.io badges — one line per tool).
 
 ---
 

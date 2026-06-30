@@ -50,7 +50,7 @@
 
   <br/>
 
-  <img src="https://komarev.com/ghpvc/?username=KrishMaheshwari-pro&style=flat&color=8B5CF6&label=Profile+Views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=KrishMaheshwari-pro&style=flat&color=8B5CF6&label=Profile+Views&base=100" alt="Profile views" />
 
 </div>
 
@@ -59,38 +59,16 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## About
 
-> **I like turning ideas into software that solves real problems.**
-> A computer science student who builds end-to-end — from the interface to the data.
+> **I build at the intersection of full-stack development, machine learning, and real-world problems.**
 
-I'm **Krish Maheshwari**, a **B.Tech Computer Science & Engineering (Core)** student and a
-**full-stack developer** with a solid foundation in programming, data structures and software
-development. I build end-to-end **web and app experiences**, while my deeper interests lie in
-**Machine Learning and Data Science**. Driven by curiosity and a commitment to growth, I keep
-expanding my knowledge, picking up emerging technologies, and applying them to solve real-world
-problems with innovation and precision.
+I'm **Krish Maheshwari** — a Computer Science student and full-stack developer who likes turning ideas into software people actually use.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**What I'm into**
-- 💻 Full-stack web & app development
-- 🤖 Machine Learning & Data Science
-- 📊 Turning data into clear, useful insights
-- 🧩 Building projects that solve real problems
-
-</td>
-<td width="50%" valign="top">
-
-**How I work**
-- Useful **>** flashy — solve the actual problem
-- Learn fast, build, then refine
-- Clean, readable, maintainable code
-- Curious by default, detail-oriented by habit
-
-</td>
-</tr>
-</table>
+- 🎓 &nbsp;**B.Tech Computer Science & Engineering** — Manipal University Jaipur (2023–2027)
+- 🌱 &nbsp;Currently exploring **Machine Learning, Data Science & RAG systems**
+- 💻 &nbsp;Building **full-stack web & app experiences**, end to end
+- 💼 &nbsp;Open to **internships and freelance development / data projects**
+- 🧠 &nbsp;Believer in **learning by building**
+- 📫 &nbsp;Reach me at **krishmaheshwari111@gmail.com**
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
@@ -98,7 +76,38 @@ problems with innovation and precision.
 ## Tech Stack
 
 <div align="center">
-  <img src="assets/cards/tech-stack.svg" width="100%" alt="Tech stack: HTML, CSS, JavaScript, C, C++, Python, Go, MongoDB, React, Node.js, Supabase, Firebase, SQL, Excel, AWS, Power BI, Tableau, Docker, MySQL" />
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+**Frontend & Backend**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**Cloud, DevOps & Data**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
 </div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
@@ -108,17 +117,6 @@ problems with innovation and precision.
 
 <div align="center">
   <img src="assets/cards/core-cs.svg" width="100%" alt="Core CS fundamentals: Data Structures & Algorithms, OOP, DBMS & SQL, Operating Systems, Computer Networks, System Design" />
-</div>
-
-<div align="center">
-
-![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-2E5BFF?style=for-the-badge&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-22D3EE?style=for-the-badge&logoColor=white)
-![DBMS](https://img.shields.io/badge/DBMS%20%26%20SQL-8B5CF6?style=for-the-badge&logoColor=white)
-![OS](https://img.shields.io/badge/Operating%20Systems-E15FD0?style=for-the-badge&logoColor=white)
-![CN](https://img.shields.io/badge/Computer%20Networks-2E5BFF?style=for-the-badge&logoColor=white)
-![System Design](https://img.shields.io/badge/System%20Design-22D3EE?style=for-the-badge&logoColor=white)
-
 </div>
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
@@ -189,12 +187,17 @@ content and offline access to engage students with limited internet connectivity
 </tr>
 </table>
 
-#### More work
+<details>
+<summary><b>＋ View more projects</b></summary>
+
+<br/>
 
 - **[RAG Chatbot](https://github.com/KrishMaheshwari-pro/RAG-chatbot)** — document Q&A with AI embeddings, a vector store and citation-backed answers · `Python` `LangChain` `Streamlit`
 - **[Media Player Gesture Controller](https://github.com/KrishMaheshwari-pro/Media-Player-Gesture-Controller)** — control media playback with hand gestures · `Python` `MediaPipe` `OpenCV`
 - **[Sales & Churn Analytics](https://github.com/KrishMaheshwari-pro/data-analyst)** — end-to-end dashboard with cleaning, KPIs and visuals · `SQL` `Power BI`
 - **[Excel NAV Scraper](https://github.com/KrishMaheshwari-pro/Excel_Scraper)** — extraction & mapping pipeline for bulk AMC NAV data · `Python` `Pandas`
+
+</details>
 
 <div align="center">
 <sub>More on <a href="https://github.com/KrishMaheshwari-pro?tab=repositories">my repositories →</a></sub>
@@ -205,24 +208,36 @@ content and offline access to engage students with limited internet connectivity
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Experience
 
-<table>
-<tr>
-<td valign="top">
-
-### Full-Stack Developer Intern · <a href="https://altuscorp.in">Altus Corp</a>
+### 🚀 Full-Stack Developer Intern · <a href="https://altuscorp.in">Altus Corp</a>
 **Mumbai · June 2025 – Present**
 
 Building real, client-facing software end-to-end — across web, mobile and data.
 
-- 🚀 Built and shipped responsive, client-facing **websites and apps**, each tailored to a distinct brand and audience.
-- ⚛️ Engineered modern, **mobile-first interfaces with React**, integrating Supabase and REST APIs for real-time data, auth and dynamic content.
-- 📱 Developed **cross-platform mobile apps**, working directly with clients to gather requirements and ship polished, store-ready deliverables.
-- 📊 Built **data-analytics dashboards** that surface key metrics and actionable insights for clients and internal teams.
-- 🧪 Owned **testing, debugging and the full deployment lifecycle** for reliable, production-ready releases.
+- Built and shipped responsive, client-facing **websites and apps**, each tailored to a distinct brand and audience.
+- Engineered modern, **mobile-first interfaces with React**, integrating Supabase and REST APIs for real-time data, auth and dynamic content.
+- Developed **cross-platform mobile apps**, working directly with clients to gather requirements and ship polished, store-ready deliverables.
+- Built **data-analytics dashboards** that surface key metrics and actionable insights for clients and internal teams.
+- Owned **testing, debugging and the full deployment lifecycle** for reliable, production-ready releases.
 
-</td>
-</tr>
-</table>
+### 📊 Software Development Intern · Finalyca
+**June 2025 – July 2025**
+
+A financial data & analytics company — focused on data pipelines and clean, analysis-ready datasets.
+
+- Built a smart **Excel parser with Python (pandas)** that automates data extraction and processing.
+- Designed automated **data-transformation pipelines** that convert Excel files into structured formats for analysis.
+- Implemented **error-handling and validation** systems to ensure data integrity during processing.
+- Performed **exploratory data analysis** and prepared clean datasets feeding downstream financial analytics.
+
+### 🎨 Web Development Intern · Miso
+**August 2024 – October 2024**
+
+An early-stage startup building customizable gifts and personalized showpieces.
+
+- Developed **responsive web interfaces** using modern frontend technologies and best practices.
+- Integrated **Firebase** for real-time data management and user authentication.
+- Styled applications with **Tailwind CSS** for consistent, maintainable design systems.
+- Collaborated cross-functionally to deliver high-quality web solutions on schedule at a fast-paced startup.
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
 
@@ -247,17 +262,10 @@ Junior College — Science (HSC)
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td colspan="2" valign="top">
 
 **🏫 Gopi Birla Memorial School, Mumbai**
-Schooling up to Class 10 (CBSE) · **94.2%**
-`up to 2021`
-
-</td>
-<td valign="top">
-
-**📚 Currently learning**
-Machine Learning · Data Science · System design · shipping under real constraints
+Schooling up to Class 10 (CBSE) · **94.2%** · `up to 2021`
 
 </td>
 </tr>
