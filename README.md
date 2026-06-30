@@ -31,7 +31,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://krishmaheshwari.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://krishmaheshwari.vercel.app">
+  <a href="https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro/blob/main/assets/resume/Krish-Maheshwari-Resume.pdf">
     <img src="https://img.shields.io/badge/Résumé-FF6F61?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
     <img src="https://img.shields.io/badge/krishmaheshwari111@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -46,6 +46,7 @@
   <kbd><a href="#core-cs">Core CS</a></kbd> &nbsp;
   <kbd><a href="#projects">Projects</a></kbd> &nbsp;
   <kbd><a href="#experience">Experience</a></kbd> &nbsp;
+  <kbd><a href="#achievements">Achievements</a></kbd> &nbsp;
   <kbd><a href="#education">Education</a></kbd> &nbsp;
   <kbd><a href="#github-stats">Stats</a></kbd> &nbsp;
   <kbd><a href="#connect">Connect</a></kbd>
@@ -218,20 +219,26 @@ content and offline access to engage students with limited internet connectivity
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Experience
 
-### 🚀 Full-Stack Developer Intern
-<a href="https://altuscorp.in"><img src="https://img.shields.io/badge/Altus_Corp-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="Altus Corp" /></a> &nbsp;`Mumbai · Jun 2025 – Present`
+**🚀 Full-Stack Developer Intern** &nbsp; <a href="https://altuscorp.in"><img src="https://img.shields.io/badge/Altus_Corp-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="Altus Corp" /></a> &nbsp; <img src="https://img.shields.io/badge/Jun_2025_→_Present-0E1530?style=flat-square&labelColor=22D3EE&color=0E1530" alt="Jun 2025 – Present" />
 
-Shipped client **websites & apps** with **React + Supabase**, built **analytics dashboards**, and owned **testing & deployment** end-to-end.
+Shipped client **websites & apps** (**React · Supabase**), **analytics dashboards** & full **deployment**.
 
-### 📊 Software Development Intern
-<a href="https://finalyca.com"><img src="https://img.shields.io/badge/Finalyca-22D3EE?style=flat-square&logo=databricks&logoColor=white" alt="Finalyca" /></a> &nbsp;`Jun 2025 – Jul 2025`
+**📊 Data Engineer Intern** &nbsp; <a href="https://finalyca.com"><img src="https://img.shields.io/badge/Finalyca-22D3EE?style=flat-square&logo=databricks&logoColor=white" alt="Finalyca" /></a> &nbsp; <img src="https://img.shields.io/badge/Jun_→_Jul_2025-0E1530?style=flat-square&labelColor=8B5CF6&color=0E1530" alt="Jun – Jul 2025" />
 
-Built a **Python (pandas)** Excel parser and **data pipelines** with **validation** and **EDA**, delivering clean, analysis-ready financial datasets.
+Built **ETL pipelines** & a **Python (Pandas)** Excel parser for clean, analysis-ready data.
 
-### 🎨 Web Development Intern
-<img src="https://img.shields.io/badge/Miso-2E5BFF?style=flat-square&logo=react&logoColor=white" alt="Miso" /> &nbsp;`Aug 2024 – Oct 2024`
+**🎨 Frontend Developer Intern** &nbsp; <img src="https://img.shields.io/badge/Miso-2E5BFF?style=flat-square&logo=react&logoColor=white" alt="Miso" /> &nbsp; <img src="https://img.shields.io/badge/Remote_·_Jul_→_Sep_2024-0E1530?style=flat-square&labelColor=E15FD0&color=0E1530" alt="Remote · Jul – Sep 2024" />
 
-Built **responsive React interfaces** with **Firebase** auth/data and **Tailwind CSS** at an early-stage startup.
+Built **responsive web UIs** with **Firebase** & **Tailwind CSS** at a fast-paced startup.
+
+<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  ACHIEVEMENTS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## Achievements
+
+<div align="center">
+  <img src="assets/cards/achievements.svg" width="100%" alt="Honors & Awards: 2x Hackathon Winner, selected for Smart India Hackathon 2025, Dean's List (GPA > 9.0 for four semesters), ACM Club member, paid buddy mentor" />
+</div>
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
 
@@ -244,7 +251,7 @@ Built **responsive React interfaces** with **Firebase** auth/data and **Tailwind
 
 **🎓 Manipal University Jaipur**
 B.Tech — Computer Science & Engineering
-`2023 – 2027` · **CGPA 9.0**
+`2023 – 2027` · **CGPA 9.2**
 
 </td>
 <td width="50%" valign="top">
@@ -259,7 +266,7 @@ Junior College — Science (HSC)
 <td colspan="2" valign="top">
 
 **🏫 Gopi Birla Memorial School, Mumbai**
-Schooling up to Class 10 (CBSE) · **94.2%** · `up to 2021`
+Schooling up to Class 10 (CBSE) · **94.6%** · `up to 2021`
 
 </td>
 </tr>
@@ -320,7 +327,7 @@ Schooling up to Class 10 (CBSE) · **94.2%** · `up to 2021`
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  QUOTE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
 
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote of the day" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev quote of the day" />
 
 </div>
 

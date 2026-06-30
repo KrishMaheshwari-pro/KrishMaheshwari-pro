@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ACHIEVEMENTS · Honors & Awards (real, from résumé). Self-contained, JS-free.
+     Animated: rotating trophy rays, gold shimmer, staggered tile reveals, sparkles. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img"
+     aria-label="Honors and Awards: 2x hackathon winner, selected for Smart India Hackathon 2025, Dean's List GPA above 9 for four semesters, ACM Club member, paid buddy mentor">
+  <defs>
+    <linearGradient id="ac_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1024"/><stop offset="100%" stop-color="#070A14"/>
+    </linearGradient>
+    <linearGradient id="ac_gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE9A8"/><stop offset="55%" stop-color="#F5B301"/><stop offset="100%" stop-color="#E8890C"/>
+    </linearGradient>
+    <linearGradient id="ac_goldText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE9A8"/><stop offset="50%" stop-color="#FFC93C"/><stop offset="100%" stop-color="#FFE9A8"/>
+    </linearGradient>
+    <linearGradient id="ac_cyan"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#67E8F9"/></linearGradient>
+    <linearGradient id="ac_purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#E15FD0"/></linearGradient>
+    <linearGradient id="ac_blue"   x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3B82FF"/><stop offset="100%" stop-color="#67E8F9"/></linearGradient>
+    <linearGradient id="ac_accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5B301" stop-opacity="0"/><stop offset="35%" stop-color="#F5B301"/><stop offset="65%" stop-color="#E15FD0"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ac_halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5B301" stop-opacity="0.55"/><stop offset="100%" stop-color="#F5B301" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ac_glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .h{font-family:'Segoe UI',system-ui,sans-serif}
+      .tile{animation:rise .8s cubic-bezier(.2,.7,.2,1) backwards, breathe 4s ease-in-out infinite}
+      .t1{animation-delay:.10s,.2s}.t2{animation-delay:.22s,.7s}.t3{animation-delay:.34s,1.2s}.t4{animation-delay:.46s,1.7s}
+      @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes breathe{0%,100%{filter:brightness(1)}50%{filter:brightness(1.14)}}
+      .rays{animation:spin 22s linear infinite;transform-origin:center}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .trophy{animation:bob 3.6s ease-in-out infinite;transform-origin:center}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+      .shine{animation:shine 4.5s ease-in-out infinite}
+      @keyframes shine{0%{opacity:.25}50%{opacity:.9}100%{opacity:.25}}
+      .spark{animation:fl 5s ease-in-out infinite}
+      .k2{animation-delay:.9s}.k3{animation-delay:1.8s}.k4{animation-delay:2.7s}
+      @keyframes fl{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-8px);opacity:1}}
+      @media (prefers-reduced-motion:reduce){.tile,.rays,.trophy,.shine,.spark{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1096" height="296" rx="22" fill="url(#ac_bg)" stroke="#1E2A45" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text class="h" x="40" y="48" fill="#F4F7FF" font-size="22" font-weight="800" letter-spacing="-.5">Honors &amp; Awards</text>
+  <text class="h" x="222" y="48" fill="#7E8BA8" font-size="13">Recognition for building, competing and helping others learn.</text>
+  <rect x="40" y="62" width="1020" height="2" fill="url(#ac_accent)"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></rect>
+
+  <!-- sparkles -->
+  <circle class="spark"    cx="540" cy="92" r="2.2" fill="#F5B301"/>
+  <circle class="spark k2" cx="980" cy="96" r="2"   fill="#22D3EE"/>
+  <circle class="spark k3" cx="600" cy="250" r="2"  fill="#E15FD0"/>
+  <circle class="spark k4" cx="120" cy="250" r="2"  fill="#3B82FF"/>
+
+  <!-- ── Featured: hackathons ─────────────────────────────── -->
+  <g class="h tile t1">
+    <rect x="28" y="84" width="512" height="188" rx="16" fill="#0E1530" stroke="#3A2F12" stroke-width="1.4"/>
+    <!-- halo + rotating rays + trophy -->
+    <circle cx="120" cy="178" r="70" fill="url(#ac_halo)" class="shine"/>
+    <g class="rays" transform="translate(120,178)" stroke="url(#ac_gold)" stroke-width="2.4" stroke-linecap="round" opacity="0.7">
+      <line x1="0" y1="-58" x2="0" y2="-44"/><line x1="0" y1="58" x2="0" y2="44"/>
+      <line x1="-58" y1="0" x2="-44" y2="0"/><line x1="58" y1="0" x2="44" y2="0"/>
+      <line x1="-41" y1="-41" x2="-31" y2="-31"/><line x1="41" y1="41" x2="31" y2="31"/>
+      <line x1="-41" y1="41" x2="-31" y2="31"/><line x1="41" y1="-41" x2="31" y2="-31"/>
+    </g>
+    <g class="trophy" transform="translate(120,178)" filter="url(#ac_glow)">
+      <!-- trophy cup -->
+      <path d="M-22,-30 H22 V-18 a22,22 0 0 1 -44,0 Z" fill="url(#ac_gold)"/>
+      <path d="M-22,-26 a-14,-14 0 0 1 -14,12 a14,14 0 0 0 14,12 Z" fill="url(#ac_gold)"/>
+      <path d="M22,-26 a14,14 0 0 1 14,12 a14,14 0 0 0 -14,12 Z" fill="url(#ac_gold)"/>
+      <rect x="-4" y="2" width="8" height="14" fill="url(#ac_gold)"/>
+      <rect x="-16" y="16" width="32" height="8" rx="2" fill="url(#ac_gold)"/>
+      <text x="0" y="-12" text-anchor="middle" fill="#7A4E05" font-size="16" font-weight="800" class="h">★</text>
+    </g>
+    <!-- text -->
+    <text class="h" x="206" y="150" fill="url(#ac_goldText)" font-size="30" font-weight="800">2+ Hackathon Wins</text>
+    <text class="h" x="206" y="182" fill="#C7D2E8" font-size="15" font-weight="600">Selected · Smart India Hackathon 2025</text>
+    <g class="h" font-size="12" font-weight="600">
+      <rect x="206" y="200" width="120" height="26" rx="13" fill="#171022" stroke="#F5B301" stroke-opacity="0.5"/>
+      <text x="266" y="217" text-anchor="middle" fill="#FFD466">Nationwide</text>
+      <rect x="334" y="200" width="118" height="26" rx="13" fill="#101a2e" stroke="#22D3EE" stroke-opacity="0.5"/>
+      <text x="393" y="217" text-anchor="middle" fill="#7FE9F7">Builder mindset</text>
+    </g>
+  </g>
+
+  <!-- ── Right column tiles ───────────────────────────────── -->
+  <!-- Dean's List -->
+  <g class="h tile t2">
+    <rect x="560" y="84" width="512" height="56" rx="13" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect x="576" y="98" width="30" height="28" rx="8" fill="url(#ac_gold)"/>
+    <text x="591" y="118" text-anchor="middle" fill="#06080F" font-size="15" font-weight="800">★</text>
+    <text class="h" x="620" y="109" fill="#F4F7FF" font-size="15" font-weight="700">Dean's List</text>
+    <text class="h" x="620" y="128" fill="#9AA7C2" font-size="12.5">GPA above 9.0 for four consecutive semesters</text>
+  </g>
+  <!-- ACM Club -->
+  <g class="h tile t3">
+    <rect x="560" y="148" width="512" height="56" rx="13" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect x="576" y="162" width="30" height="28" rx="8" fill="url(#ac_purple)"/>
+    <text x="591" y="182" text-anchor="middle" fill="#06080F" font-size="14" font-weight="800">◆</text>
+    <text class="h" x="620" y="173" fill="#F4F7FF" font-size="15" font-weight="700">ACM Club · Active Member</text>
+    <text class="h" x="620" y="192" fill="#9AA7C2" font-size="12.5">Organises and hosts campus events &amp; activities</text>
+  </g>
+  <!-- Buddy Mentor -->
+  <g class="h tile t4">
+    <rect x="560" y="212" width="512" height="56" rx="13" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
+    <rect x="576" y="226" width="30" height="28" rx="8" fill="url(#ac_cyan)"/>
+    <text x="591" y="246" text-anchor="middle" fill="#06080F" font-size="14" font-weight="800">✎</text>
+    <text class="h" x="620" y="237" fill="#F4F7FF" font-size="15" font-weight="700">Paid Buddy Mentor</text>
+    <text class="h" x="620" y="256" fill="#9AA7C2" font-size="12.5">Awarded to teach core CS subjects to students</text>
+  </g>
+</svg>
