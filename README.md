@@ -1,7 +1,7 @@
 <!--
   ╔══════════════════════════════════════════════════════════════════╗
   ║  Krish Maheshwari · GitHub profile README                         ║
-  ║  AIML Enthusiast · Full Stack Developer       ║
+  ║  CS student · Full-stack developer · ML & data science            ║
   ║                                                                    ║
   ║  Built like a product, not a template. Hand-authored animated     ║
   ║  SVGs live in /assets — edit those, not third-party widgets.      ║
@@ -13,37 +13,37 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  HERO  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
 
-  <img src="assets/banners/hero-banner.svg" alt="Krish Maheshwari — Founder, Builder, Full-Stack & AI Engineer" width="100%" />
+  <img src="assets/banners/hero-banner.svg" alt="Krish Maheshwari — Computer Science student and full-stack developer" width="100%" />
 
   <br/><br/>
 
   <!-- dynamic typed subtitle (replaceable third-party widget — see docs/CUSTOMIZATION.md) -->
-  <a href="https://github.com/KrishMaheshwari-pro">
-    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&height=40&lines=Founder+of+Altus+Corp;Creator+of+Productivity+Shastra;Full-Stack+%26+AI+Engineer;Engineering+student+building+in+public" alt="Roles" />
+  <a href="https://krishmaheshwari.vercel.app">
+    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&height=40&lines=Computer+Science+Student;Full-Stack+Developer;Machine+Learning+%26+Data+Science;Building+real-world+products" alt="What I do" />
   </a>
 
   <br/>
 
   <!-- ── primary links ─────────────────────────────────────── -->
   <a href="https://github.com/KrishMaheshwari-pro">
-    <img src="https://img.shields.io/badge/GitHub-0B1024?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/krish--maheshwari/">
-    <img src="https://img.shields.io/badge/LinkedIn-0B1024?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://instagram.com/krishmaheshwari07">
-    <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://krishmaheshwari.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:krishmaheshwari111@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://instagram.com/krishmaheshwari07">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
   <br/><br/>
 
   <!-- ── section nav (links resolve to GitHub's auto heading anchors) ── -->
   <kbd><a href="#about">About</a></kbd> &nbsp;
-  <kbd><a href="#altus-corp">Altus Corp</a></kbd> &nbsp;
-  <kbd><a href="#productivity-shastra">Productivity Shastra</a></kbd> &nbsp;
-  <kbd><a href="#tech-stack">Stack</a></kbd> &nbsp;
-  <kbd><a href="#featured-projects">Projects</a></kbd> &nbsp;
+  <kbd><a href="#tech-stack">Tech Stack</a></kbd> &nbsp;
+  <kbd><a href="#projects">Projects</a></kbd> &nbsp;
+  <kbd><a href="#experience">Experience</a></kbd> &nbsp;
+  <kbd><a href="#education">Education</a></kbd> &nbsp;
   <kbd><a href="#github-stats">Stats</a></kbd> &nbsp;
   <kbd><a href="#connect">Connect</a></kbd>
 
@@ -58,143 +58,38 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## About
 
-> **I build software that respects people's time.**
-> Engineering student by day, founder by obsession — turning rough ideas into
-> products that feel calm, fast and genuinely useful.
+> **I like turning ideas into software that solves real problems.**
+> A computer science student who builds end-to-end — from the interface to the data.
 
-I'm **Krish Maheshwari** — founder of **Altus Corp**, a Mumbai-based services & digital studio,
-and the creator of **Productivity Shastra**, an all-in-one productivity platform I designed and
-shipped during my internship. I work across the full stack, lean hard into AI, and care a little
-too much about the details most people scroll past.
+I'm **Krish Maheshwari**, a **B.Tech Computer Science & Engineering (Core)** student and a
+**full-stack developer** with a solid foundation in programming, data structures and software
+development. I build end-to-end **web and app experiences**, while my deeper interests lie in
+**Machine Learning and Data Science**. Driven by curiosity and a commitment to growth, I keep
+expanding my knowledge, picking up emerging technologies, and applying them to solve real-world
+problems with innovation and precision.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**What I'm doing now**
-- 🏗️ Building **Productivity Shastra** — AI-assisted planning & focus
-- 🚀 Running **Altus Corp** — client work + product
-- 🎓 Studying engineering, shipping on the side
-- 🧠 Going deep on AI systems & developer-grade UX
+**What I'm into**
+- 💻 Full-stack web & app development
+- 🤖 Machine Learning & Data Science
+- 📊 Turning data into clear, useful insights
+- 🧩 Building projects that solve real problems
 
 </td>
 <td width="50%" valign="top">
 
-**How I think about building**
-- Useful **>** impressive
-- Ship, measure, learn — then refine
-- Performance and polish are features
-- Build in public, stay honest about progress
+**How I work**
+- Useful **>** flashy — solve the actual problem
+- Learn fast, build, then refine
+- Clean, readable, maintainable code
+- Curious by default, detail-oriented by habit
 
 </td>
 </tr>
 </table>
-
-<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  ALTUS CORP  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
-## Altus Corp
-
-<div align="center">
-  <img src="assets/cards/altus-card.svg" width="100%" alt="Altus Corp — Mumbai-based services & digital studio. Mission, vision, values." />
-</div>
-
-**Altus** *(Latin: high, elevated)* is the studio I'm building — based in **Mumbai, India**.
-It exists to help ambitious people and brands turn ideas into well-crafted products, websites and
-systems. Not a SaaS factory — a craft-first studio where consulting and building live side by side,
-with **Productivity Shastra** as its flagship product.
-
-```text
-Founded   ·  Mumbai, India
-Focus     ·  Digital products · Consulting · Web & systems engineering
-Operating ·  Client-first · Founder-led · Quality over volume
-Flagship  ·  Productivity Shastra
-```
-
-<div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░  PRODUCTIVITY SHASTRA  ░░░░░░░░░░░░░░░░░░░░ -->
-## Productivity Shastra
-
-<table>
-<tr>
-<td width="120" valign="top" align="center">
-  <img src="assets/logos/productivity-shastra-logo.svg" width="96" alt="Productivity Shastra logo" />
-</td>
-<td valign="middle">
-
-### The flagship — a productivity platform, not just an app.
-
-*"Shastra"* means a **discipline** — a body of knowledge you can practise. Productivity Shastra
-turns that idea into software: a single, calm place to **plan, focus, and ship** — now growing an
-**AI layer** that does the heavy lifting of organising your day.
-
-</td>
-</tr>
-</table>
-
-#### Modules
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**🗂️ Plan**
-Tasks, projects and goals in one structured workspace — built to reduce noise, not add it.
-
-</td>
-<td width="33%" valign="top">
-
-**🎯 Focus**
-Time-blocking, sessions and gentle nudges that protect deep work instead of interrupting it.
-
-</td>
-<td width="33%" valign="top">
-
-**✨ Assist (AI)**
-Smart planning, auto-scheduling and summaries — your plan, organised for you.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**📊 Reflect**
-Lightweight reviews and insights so progress is visible, not guessed.
-
-</td>
-<td valign="top">
-
-**🔁 Sync**
-Realtime sync across devices with an offline-first, installable PWA.
-
-</td>
-<td valign="top">
-
-**🧩 Extend**
-A modular core meant to grow — new modules without rewrites.
-
-</td>
-</tr>
-</table>
-
-#### Architecture
-
-<div align="center">
-  <img src="assets/illustrations/ps-architecture.svg" width="100%" alt="Productivity Shastra architecture: Experience, Application, Intelligence and Data tiers" />
-</div>
-
-#### Roadmap
-
-<div align="center">
-  <img src="assets/illustrations/roadmap-timeline.svg" width="100%" alt="Roadmap from foundations to scale" />
-</div>
-
-<div align="center">
-
-`React` · `Next.js` · `TypeScript` · `Node.js` · `Python · FastAPI` · `Supabase` · `PostgreSQL` · `Tailwind CSS` · `LangChain`
-
-</div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
@@ -202,66 +97,150 @@ A modular core meant to grow — new modules without rewrites.
 ## Tech Stack
 
 <div align="center">
-  <img src="assets/cards/tech-stack.svg" width="100%" alt="Tech stack across languages, frontend, backend, database, AI, cloud, DevOps and design" />
+  <img src="assets/cards/tech-stack.svg" width="100%" alt="Tech stack across languages, frontend, backend, database, AI/ML and analytics tools" />
 </div>
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  PROJECTS  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
-## Featured Projects
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ✦ Productivity Shastra
-All-in-one productivity platform — plan, focus, reflect, with a growing AI layer.
+### 🛡️ CredVeda
+AI-powered **credit-risk assessment** platform that uses machine learning and predictive modeling
+to evaluate creditworthiness — helping lenders make faster, more reliable decisions.
 
-`Next.js` `Supabase` `Python` `LangChain`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-**Status** — In active development
-[**→ Repositories**](https://github.com/KrishMaheshwari-pro?tab=repositories)
+[**→ View repo**](https://github.com/KrishMaheshwari-pro/CREDVEDA)
 
 </td>
 <td width="50%" valign="top">
 
-### ✦ Altus Corp — Web
-Studio site & client delivery — marketing, case work, and product surfaces.
+### ⛓️ AidChain
+**Blockchain donation platform** that releases disaster-relief funds step-by-step through smart
+contracts. Donors verify each milestone with real proofs and track every ETH transaction.
 
-`React` `Next.js` `Tailwind` `Vercel`
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
-**Status** — Building
-[**→ Repositories**](https://github.com/KrishMaheshwari-pro?tab=repositories)
+[**→ View repo**](https://github.com/KrishMaheshwari-pro/AIDCHAIN)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### ✦ AI Experiments
-A sandbox for agents, RAG and developer tooling — where ideas get prototyped.
+### 🤝 LendConnect
+Full-stack **micro-lending platform** connecting borrowers and lenders directly — built for rural
+and semi-urban households to avoid high-interest debt traps from banks and moneylenders.
 
-`Python` `OpenAI` `Vector DBs`
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-**Status** — Ongoing
-[**→ Repositories**](https://github.com/KrishMaheshwari-pro?tab=repositories)
+[**→ View repo**](https://github.com/KrishMaheshwari-pro/LendConnect)
 
 </td>
 <td valign="top">
 
-### ✦ This Profile
-A profile built like a product — hand-authored animated SVGs, automated stats.
+### 🎮 STEM-QUEST
+**Gamified learning platform** for rural schools (grades 6–12) — interactive games, multilingual
+content and offline access to engage students with limited internet connectivity.
 
-`SVG` `GitHub Actions` `Design`
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![i18n](https://img.shields.io/badge/Multilingual-4B5563?style=flat-square&logo=googletranslate&logoColor=white)
 
-**Status** — You're looking at it
-[**→ Source**](https://github.com/KrishMaheshwari-pro/KrishMaheshwari-pro)
+[**→ View repo**](https://github.com/KrishMaheshwari-pro/STEM-QUEST---Gamified-learning-Platform-for-rural-education)
 
 </td>
 </tr>
 </table>
 
-> 🛈 Project cards are curated. Pin your best repos (**Profile → Customize your pins**) and they'll show below your stats automatically.
+#### More work
+
+- **[RAG Chatbot](https://github.com/KrishMaheshwari-pro/RAG-chatbot)** — document Q&A with AI embeddings, a vector store and citation-backed answers · `Python` `LangChain` `Streamlit`
+- **[Media Player Gesture Controller](https://github.com/KrishMaheshwari-pro/Media-Player-Gesture-Controller)** — control media playback with hand gestures · `Python` `MediaPipe` `OpenCV`
+- **[Sales & Churn Analytics](https://github.com/KrishMaheshwari-pro/data-analyst)** — end-to-end dashboard with cleaning, KPIs and visuals · `SQL` `Power BI`
+- **[Excel NAV Scraper](https://github.com/KrishMaheshwari-pro/Excel_Scraper)** — extraction & mapping pipeline for bulk AMC NAV data · `Python` `Pandas`
+
+<div align="center">
+<sub>More on <a href="https://github.com/KrishMaheshwari-pro?tab=repositories">my repositories →</a></sub>
+</div>
+
+<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## Experience
+
+<table>
+<tr>
+<td valign="top">
+
+### Full-Stack Developer Intern · <a href="https://altuscorp.in">Altus Corp</a>
+**Mumbai · June 2025 – Present**
+
+Building real, client-facing software end-to-end — across web, mobile and data.
+
+- 🚀 Built and shipped responsive, client-facing **websites and apps**, each tailored to a distinct brand and audience.
+- ⚛️ Engineered modern, **mobile-first interfaces with React**, integrating Supabase and REST APIs for real-time data, auth and dynamic content.
+- 📱 Developed **cross-platform mobile apps**, working directly with clients to gather requirements and ship polished, store-ready deliverables.
+- 📊 Built **data-analytics dashboards** that surface key metrics and actionable insights for clients and internal teams.
+- 🧪 Owned **testing, debugging and the full deployment lifecycle** for reliable, production-ready releases.
+
+</td>
+</tr>
+</table>
+
+<div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  EDUCATION  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## Education
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎓 Manipal University Jaipur**
+B.Tech — Computer Science & Engineering
+`2023 – 2027` · **CGPA 9.0**
+
+</td>
+<td width="50%" valign="top">
+
+**📘 KC College, Mumbai**
+Junior College — Science (HSC)
+`2021 – 2023`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🏫 Gopi Birla Memorial School, Mumbai**
+Schooling up to Class 10 (CBSE) · **94.2%**
+`up to 2021`
+
+</td>
+<td valign="top">
+
+**📚 Currently learning**
+Machine Learning · Data Science · System design · shipping under real constraints
+
+</td>
+</tr>
+</table>
 
 <div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
@@ -270,20 +249,20 @@ A profile built like a product — hand-authored animated SVGs, automated stats.
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KrishMaheshwari-pro&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=22D3EE&icon_color=8B5CF6&text_color=9AA7C2&bg_color=00000000&ring_color=2E5BFF" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=KrishMaheshwari-pro&hide_border=true&background=00000000&stroke=1E2A45&ring=8B5CF6&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=9AA7C2&currStreakNum=F4F7FF&sideNums=F4F7FF&dates=5E6B85" alt="GitHub streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KrishMaheshwari-pro&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=22D3EE&icon_color=8B5CF6&text_color=C7D2E8&bg_color=0B1024&ring_color=8B5CF6" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=KrishMaheshwari-pro&hide_border=true&background=0B1024&stroke=22305A&ring=8B5CF6&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C7D2E8&currStreakNum=F4F7FF&sideNums=F4F7FF&dates=9AA7C2" alt="GitHub streak" />
 
   <br/>
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=KrishMaheshwari-pro&layout=compact&hide_border=true&langs_count=10&title_color=22D3EE&text_color=9AA7C2&bg_color=00000000" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=KrishMaheshwari-pro&layout=compact&hide_border=true&langs_count=8&title_color=22D3EE&text_color=C7D2E8&bg_color=0B1024" alt="Top languages" />
 
   <br/><br/>
 
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KrishMaheshwari-pro&bg_color=00000000&color=9AA7C2&line=8B5CF6&point=22D3EE&area=true&area_color=2E5BFF&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KrishMaheshwari-pro&bg_color=0B1024&color=C7D2E8&line=8B5CF6&point=22D3EE&area=true&area_color=2E5BFF&hide_border=true&title_color=22D3EE&custom_title=Contribution%20Graph" alt="Contribution graph" />
 
   <br/>
 
-  <img width="100%" src="https://github-profile-trophy.vercel.app?username=KrishMaheshwari-pro&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8&title_color=22D3EE&text_color=9AA7C2" alt="Trophies" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app?username=KrishMaheshwari-pro&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
 
@@ -294,11 +273,7 @@ A profile built like a product — hand-authored animated SVGs, automated stats.
 -->
 #### Contribution Snake
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake-dark.svg?v=2" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg?v=2" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg?v=2" width="100%" />
-  </picture>
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/KrishMaheshwari-pro/KrishMaheshwari-pro/output/github-snake.svg?v=3" width="100%" />
 </div>
 
 <details>
@@ -312,90 +287,28 @@ A profile built like a product — hand-authored animated SVGs, automated stats.
 #### Recent Activity
 <!--START_SECTION:activity-->
 <!-- The recent-activity workflow auto-fills this list. Until it runs, this placeholder stays. -->
-1. 🛠️ Building Productivity Shastra
-2. 🎨 Refining this profile
-3. 🚀 Shipping for Altus Corp
+1. 💻 Building full-stack web & app projects
+2. 🤖 Exploring Machine Learning & Data Science
+3. 🚀 Interning as a full-stack developer at Altus Corp
 <!--END_SECTION:activity-->
 
 <div align="center"><img src="assets/svg/wave-divider.svg" width="100%" alt="" /></div>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░  PHILOSOPHY  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
-## Principles & Philosophy
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Design philosophy**
-- Clarity first — if it needs a manual, redesign it
-- Motion with meaning, never decoration for its own sake
-- Whitespace is a feature, not wasted space
-- Dark-first, accessible always
-
-</td>
-<td width="50%" valign="top">
-
-**Engineering philosophy**
-- Type-safe by default, tested where it counts
-- Boring tech for the core, sharp tech at the edges
-- Optimise the hot path, ignore the rest
-- Readable code is a kindness to future-me
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Productivity principles**
-- One system beats ten apps
-- Plan less, decide once, execute calmly
-- Energy is the budget; time is just the unit
-- Reflection turns activity into progress
-
-</td>
-<td valign="top">
-
-**Currently learning**
-- Agentic AI & retrieval systems
-- Distributed systems & scale
-- Product design under real constraints
-- Running a studio without losing the craft
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-> *"Build useful things. Build them well. Build them in public."*
-
-</div>
-
-<div align="center"><img src="assets/svg/divider.svg" width="100%" alt="" /></div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 ## Connect
 
 <div align="center">
 
-Always up for a good conversation about products, AI, or building things people actually use.
+Always happy to talk about building things, machine learning, or a good project idea.
 
 <a href="https://www.linkedin.com/in/krish--maheshwari/">
-  <img src="https://img.shields.io/badge/LinkedIn-0B1024?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://instagram.com/krishmaheshwari07">
-  <img src="https://img.shields.io/badge/Instagram-0B1024?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="mailto:krishmaheshwari111@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0B1024?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://krishmaheshwari.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-0B1024?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-
-<br/>
-
-<sub>Elsewhere (coming soon) —
-  <a href="https://github.com/KrishMaheshwari-pro">X</a> ·
-  <a href="https://github.com/KrishMaheshwari-pro">YouTube</a> ·
-  <a href="https://github.com/KrishMaheshwari-pro">Medium</a>
-</sub>
+  <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:krishmaheshwari111@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://instagram.com/krishmaheshwari07">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
 </div>
 

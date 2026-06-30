@@ -13,12 +13,7 @@ GitHub Dark and Light.
 | ---- | ------- | ---------------------- |
 | `banners/hero-banner.svg` | The hero | Change name, eyebrow, rotating role words, brand chips, monogram |
 | `banners/footer-banner.svg` | Closing strip | Change the sign-off line |
-| `cards/altus-card.svg` | Company card | Edit mission / vision / values / meta chips |
 | `cards/tech-stack.svg` | Stack grid | Add/remove a tool (one `<text>` line each) |
-| `illustrations/ps-architecture.svg` | Product architecture | Rename tiers/nodes, retitle |
-| `illustrations/roadmap-timeline.svg` | Roadmap | Move the "NOW" node, edit milestones |
-| `logos/altus-logo.svg` | Company mark | Swap brand symbol (keep `viewBox`) |
-| `logos/productivity-shastra-logo.svg` | Product mark | Swap brand symbol (keep `viewBox`) |
 | `svg/divider.svg` | Slim section rule | — (reused everywhere) |
 | `svg/wave-divider.svg` | Wave between sections | — |
 | `metrics/github-metrics.svg` | Placeholder | Auto-replaced by the metrics workflow |

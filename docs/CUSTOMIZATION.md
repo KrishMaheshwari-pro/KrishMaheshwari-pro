@@ -13,8 +13,7 @@ Run these replacements across the whole repo (your editor's "Replace in Files"):
 | --------------------------- | ------------------------------------- | --------------------- |
 | `KrishMaheshwari-pro`       | your GitHub username                  | README, workflows     |
 | `Krish Maheshwari`          | your name                             | README, assets        |
-| `Altus Corp`                | your company / brand                  | README, assets        |
-| `Productivity Shastra`      | your product                          | README, assets        |
+| `Altus Corp`                | your company / employer               | README                |
 | `krishmaheshwari111@gmail.com` | your email                         | README                |
 | `krishmaheshwari07`         | your Instagram handle                 | README                |
 | `krishmaheshwari.vercel.app` | your portfolio domain                | README                |
@@ -27,15 +26,14 @@ All image paths are **relative**, so nothing else needs editing once renamed.
 
 ---
 
-## 2. Replace the brand marks
+## 2. The visual assets
 
-Drop your own SVGs into `assets/logos/` keeping the **same filenames and
-`viewBox="0 0 120 120"`** and they slot in everywhere automatically:
+The hand-authored SVGs live in `assets/`. The two you'll most likely touch:
 
-- `altus-logo.svg` — company mark (also the heading bullet)
-- `productivity-shastra-logo.svg` — product mark
+- `banners/hero-banner.svg` — name, eyebrow, rotating role words, chips
+- `cards/tech-stack.svg` — your stack grid
 
-Want to keep the hand-drawn ones but recolor? See `docs/ASSETS.md`.
+Want to recolor them? See `docs/ASSETS.md`.
 
 ---
 
@@ -56,9 +54,7 @@ Backgrounds: `#070A14`, `#0B1024`, `#0E1530`. Borders: `#1E2A45`, `#22305A`.
 ## 4. Edit the copy
 
 - **Hero text** → `assets/banners/hero-banner.svg` (name, eyebrow, role words, chips).
-- **About / sections** → `README.md` (plain Markdown — easiest to edit).
-- **Company card** → `assets/cards/altus-card.svg` (mission/vision/values).
-- **Architecture / roadmap** → `assets/illustrations/*.svg`.
+- **About / projects / experience / education** → `README.md` (plain Markdown — easiest to edit).
 - **Tech stack** → `assets/cards/tech-stack.svg` (one line of text per tool).
 
 ---

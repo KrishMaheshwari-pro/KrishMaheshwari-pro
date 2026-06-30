@@ -27,7 +27,7 @@
 
   <!-- header -->
   <text class="h" x="40" y="52" fill="#F4F7FF" font-size="26" font-weight="800" letter-spacing="-.5">Tools of the trade</text>
-  <text class="h" x="40" y="76" fill="#7E8BA8" font-size="14">A stack chosen for speed, type-safety and shipping real products.</text>
+  <text class="h" x="40" y="76" fill="#7E8BA8" font-size="14">Full-stack web &amp; app development, with a growing focus on ML and data science.</text>
   <line x1="40" y1="92" x2="1060" y2="92" stroke="url(#ts_rule)" stroke-width="1.5"/>
 
   <!-- card template repeated 8× -->
@@ -79,8 +79,8 @@
     <g fill="#C7D2E8" font-size="14">
       <circle cx="26" cy="74" r="3" fill="#2E5BFF"/><text x="40" y="79">PostgreSQL</text>
       <circle cx="26" cy="100" r="3" fill="#2E5BFF"/><text x="40" y="105">Supabase</text>
-      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">Prisma</text>
-      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">MongoDB</text>
+      <circle cx="26" cy="126" r="3" fill="#2E5BFF"/><text x="40" y="131">MongoDB</text>
+      <circle cx="26" cy="152" r="3" fill="#2E5BFF"/><text x="40" y="157">SQL</text>
     </g>
   </g>
 
@@ -89,12 +89,12 @@
     <rect width="250" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
     <rect class="ic p5" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
     <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">✦</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">AI / ML</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">AI / ML &amp; Data</text>
     <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">OpenAI API</text>
-      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">LangChain</text>
-      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">Vector DBs</text>
-      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">Prompt Eng.</text>
+      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">scikit-learn</text>
+      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Pandas / NumPy</text>
+      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">LangChain · RAG</text>
+      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">MediaPipe</text>
     </g>
   </g>
 
@@ -128,12 +128,12 @@
     <rect width="254" height="188" rx="16" fill="#0E1530" stroke="#22305A" stroke-width="1.2"/>
     <rect class="ic p8" x="16" y="16" width="34" height="34" rx="9" fill="url(#ts_purple)"/>
     <text x="33" y="39" text-anchor="middle" fill="#06080F" font-size="17" font-weight="800">◑</text>
-    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Design &amp; Tools</text>
+    <text x="62" y="38" fill="#F4F7FF" font-size="16" font-weight="700">Analytics &amp; Tools</text>
     <g fill="#C7D2E8" font-size="14">
-      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Figma</text>
-      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Notion</text>
-      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">VS Code</text>
-      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">Postman</text>
+      <circle cx="26" cy="74" r="3" fill="#8B5CF6"/><text x="40" y="79">Power BI</text>
+      <circle cx="26" cy="100" r="3" fill="#8B5CF6"/><text x="40" y="105">Streamlit</text>
+      <circle cx="26" cy="126" r="3" fill="#8B5CF6"/><text x="40" y="131">Figma</text>
+      <circle cx="26" cy="152" r="3" fill="#8B5CF6"/><text x="40" y="157">VS Code · Postman</text>
     </g>
   </g>
 </svg>

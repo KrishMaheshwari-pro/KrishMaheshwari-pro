@@ -38,10 +38,12 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Two palettes so the README's <picture> can serve the right one per theme
+          # ONE high-contrast, colourful snake that reads on BOTH GitHub themes.
+          # color_dots is a 5-stop ramp: empty cells use a visible slate so the
+          # contribution grid never disappears on a dark background; filled cells
+          # ramp blue → purple → magenta → cyan. Snake itself is bright cyan.
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=8B5CF6
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=22D3EE&color_dots=#0e1530,#1f3b6b,#2e5bff,#6b8cff,#22d3ee
+            dist/github-snake.svg?color_snake=#22d3ee&color_dots=#27314f,#3b82ff,#8b5cf6,#e15fd0,#22d3ee
 
       # Publish with plain git instead of a third-party action — avoids the
       # Node 20 deprecation warning and keeps the toolchain future-proof.
